@@ -2,13 +2,17 @@
   "name": "eslint-demo",
   "version": "1.0.0",
   "description": "A sample project to demonstrate ESLint functionality",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
   },
   "devDependencies": {
+    "@eslint/mcp": "^0.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
     "eslint": "^9.26.0",
-    "@eslint/mcp": "^0.1.0"
+    "typescript": "^5.8.3"
   }
-} 
+}
