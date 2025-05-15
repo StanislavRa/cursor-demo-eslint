@@ -1,0 +1,14 @@
+{
+  "name": "eslint-demo",
+  "version": "1.0.0",
+  "description": "A sample project to demonstrate ESLint functionality",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^9.26.0",
+    "@eslint/mcp": "^0.1.0"
+  }
+} 
