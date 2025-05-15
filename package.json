@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A sample project to demonstrate ESLint functionality",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
