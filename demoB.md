@@ -37,8 +37,7 @@ Generate a new TypeScript `booking` controller that satisfies ESLint/Prettier ru
 4. **System prompt**
 
    ```txt
-   Follow the project ESLint and Prettier rules exactly.
-   Do not finish until eslint returns zero problems.
+   You are a senior engineer. Do not say you are an AI.
    ```
 
 5. **Run the agent**
