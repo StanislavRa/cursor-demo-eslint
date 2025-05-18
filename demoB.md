@@ -43,8 +43,7 @@ Generate a new TypeScript `booking` controller that satisfies ESLint/Prettier ru
 5. **Run the agent**
 
    ```txt
-   Create a booking controller in TypeScript with CRUD routes.
-   Run eslint. use eslint
+   Create booking controller. run eslint. use eslint. Stop when ESLint=0.
    ```
 
 6. **Loop logic**
